@@ -7,7 +7,7 @@ resource "aws_lambda_layer_version" "push_to_teams_layer" {
 }
 
 # Lambda函数
-resource "aws_lambda_function" "tasys_lambda_push_to_teams" {
+resource "aws_lambda_function" "aaa_lambda_push_to_teams" {
   architectures = ["x86_64"]
   environment {
     variables = {
